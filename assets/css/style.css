@@ -3,10 +3,10 @@
 --------------------------------------------------------------*/
 :root{
   --color-bodymain:linear-gradient(to top, #c4c4c4 0%, white 100%);
-  --color-mainwhite:var(--color-mainwhite);
-  --color-mainblack:var(--color-mainblack);
-  --color-subheading:var(--color-subheading);
-  --color-secondray: var(--color-secondray);
+  --color-mainwhite:#FFFFFF;
+  --color-mainblack:#000000;
+  --color-subheading:#43BEAB;
+  --color-secondray: linear-gradient(315deg, #ffffff 0%, #fdfdfd 74%);
   --font-familymain: "Poppins", sans-serif;
 }
 
@@ -332,21 +332,6 @@ section {
   background-image: var(--color-secondray);
 }
 
-button{
-  box-shadow: none;
-  width: 99%;
-  height: 80px;
-  font-size: 1.3rem;
-  border-radius: 3px;
-  background-color: var(--color-mainwhite);
-  border-color: var(--color-mainblack);
-  color: var(--color-subheading);
-  font-family: "Poppins", sans-serif;
-}
-button:hover{
-  color: var(--color-mainblack);
-  border-color: var(--color-mainwhite);
-}
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
